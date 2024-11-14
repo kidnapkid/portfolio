@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang -="en">
+<head>
+    <meta charset="UTF-8">
+    <META http-equiv="X-UA-COMPATIBLE"content ="IE=edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0812107b8c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+        <img src="logo kid .png" class="logo" width="100">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav> 
+<div class="header-text">
+    <p>Undergraduate</p>
+    <h1>Hellow,I'm <span>chethiya</span> <br> From sri lanka </h1>
+</div>
+</div>
+</div>
+<!-----------------about--------------------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="1000127557.jpg" width="400">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                     I'm a Undergraduate student in SLTC Reseach university.
+                    I'm still learning about computer science and I'm studying BSc hons Software engineering. I'm from rathnapura,
+                    sri lanka. I went to R/B/Ananda maithreya central collage And finished my A/L in ART stream.
+                </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                    <li><span>Web development</span><br> web app development</li>
+                    <li><span>App development</span><br>building android/iso apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2022</span><br>Diploma in english</li>
+                    <li><span>2023</span><br>Certificate in python</li>
+                </ul>
+            </div>
+                 
+            
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Web design</h2>
+                <p>hellow, I can design a web page for you</p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-boxes-stacked"></i>
+                <h2>App design</h2>
+                <p>hellow, I can design a application for you</p>
+                <a href="#"> Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--------------------my portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                 <img src="work 1.jpg" width="300px">
+                 <div class="layer">
+                    <h3> Social media app</h3>
+                    <p>A app can change the world</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="work 2.jpg"width="300px">
+                <div class="layer">
+                    <h3> Basic hacking</h3>
+                    <p>let's  change the world</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+           </div>
+           <div class="work">
+            <img src="work 4.jpg"width="300px">
+            <div class="layer">
+                <h3> Mobile applications</h3>
+                <p>A app can change the world</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+             </div>
+       </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+
+</div>
+<!-------------------contact info------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>cit-24-01-0135@sltc.ac.lk</p>
+                <p><i class="fa-solid fa-phone"></i>071-9594395</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/KidNaPKi?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/k_id_n_a_p/."><i class="fab fa-instagram"></i></a>
+                    <a href="linkedin.com/in/chethiya-wimalasiri-0271b5304"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="chethiya CV.pdf" download class="btn btn2">DOWNLORD CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="massage" rows="6" placeholder="Your massage"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-triangle-exclamation"></i>copyright with kid. made on my own</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz4dmPef0-ILTLv5QnTr47YqHik8BBpMBTnuCqlZMSEMezmEavkYEy7nHYPvYx8mjR1eg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "DONE"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
